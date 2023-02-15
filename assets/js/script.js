@@ -62,18 +62,6 @@ $(document).ready(function () {
   // <!-- emailjs to mail contact form data -->
 });
 
-// document.addEventListener('visibilitychange',
-//     function () {
-//         if (document.visibilityState === "visible") {
-//             document.title = "Portfolio | Chi";
-//             $("#favicon").attr("href", "assets/images/favicon.png");
-//         }
-//         else {
-//             document.title = "Come Back To Portfolio";
-//             $("#favicon").attr("href", "assets/images/favhand.png");
-//         }
-//     });
-
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
   strings: [
