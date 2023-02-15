@@ -152,7 +152,6 @@ fetchData().then((data) => {
 fetchData("projects").then((data) => {
   showProjects(data);
 });
-
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
   max: 15,
